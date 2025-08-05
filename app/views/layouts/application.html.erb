@@ -18,6 +18,12 @@
   </head>
 
   <body>
+    <% if user_signed_in? %>
+      <%= button_to 'Cerrar sesión', destroy_user_session_path, method: :delete %>
+    <% else %>
+      <%= button_to 'Iniciar sesión', new_user_session_path %>
+    <% end %>
+    
     <%= yield %>
   </body>
 </html>
