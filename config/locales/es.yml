@@ -1,5 +1,5 @@
 ---
-en:
+es:
   categories:
     activerecord:
       attributes:
@@ -17,8 +17,8 @@ en:
     delete_confirmation: "¿Estás seguro de que deseas eliminar esta categoría?"
     edit_category: Editar categoría
     form:
-      description: Description
-      name: Name
+      description: Descripcion
+      name: Nombre
     new_category: Nueva categoría
     update_category: Actualizar categoría
   common:
